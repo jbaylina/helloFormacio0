@@ -7,6 +7,12 @@ Training Hello world example.
 * Sublime: [Sublime]
 * Config Sublime for Javascript: [ExRatione] -> Use "tab_size": 4
 
+
+## javascript Basics
+
+* [Tutorial] Basic javascript tutorial with try-it
+*
+
 ## Create a repository in GitHub
 
 * [git] Install Git.
@@ -30,12 +36,6 @@ Training Hello world example.
 * npm install [paquet] -g
 * npm install
 * npm rm [paquet]
-
-### Example
-```sh
-$ npm init
-$ npm install express --save
-```
 
 ## Create app.js [HelloWorld Express]
 
@@ -67,11 +67,32 @@ $ npm install express --save
 
 ## Test the api
 
-[postman]
-[swagger] Documentació i test
+* [postman] Google tool to test API's
+* [swagger] API documentation and test
+
+## ui-router
+
+* [reference ui-router]
+* [tutorial ui-router]
+
+## bootstrap
+
+* [bootstra]
+
+## Commit to repository
+```sh
+$ git add --all .
+$ git commit -m"Explicació del commit"
+$ git push
+```
+
+To sincronitze
+```sh
+$ git pull
+```
 
 
-
+[Tutorial]:http://www.w3schools.com/js/js_syntax.asp
 [Dillinger]:http://dillinger.io/
 [Sublime:]:http://www.sublimetext.com/
 [ExRatione]:https://www.exratione.com/2014/01/setting-up-sublime-text-3-for-javascript-development/
@@ -83,3 +104,6 @@ $ npm install express --save
 [node-inspector]:https://github.com/node-inspector/node-inspector
 [postman]:https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm
 [swagger]:http://swagger.io
+[reference ui-router]:https://github.com/angular-ui/ui-router/wiki/Quick-Reference
+[tutorial ui-router]:https://scotch.io/tutorials/angular-routing-using-ui-router
+[bootstrap]: http://getbootstrap.com/

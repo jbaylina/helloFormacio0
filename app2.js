@@ -47,7 +47,11 @@ app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/api/clients', function (req, res) {
-  res.json(clients);
+    res.json(clients);
+});
+
+app.get('*', function(req, res){
+    res.sendFile(path.resolve(path.join(__dirname , 'public' , 'index3.html')));
 });
 
 var server = app.listen(3000, function () {
