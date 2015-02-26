@@ -23,7 +23,7 @@ Training Hello world example.
 
 ## npm
 
-### Explicació genèrica:
+### Generic exmplanation
 * npm init
 * npm install [paquet]
 * npm install [paquet] --save
@@ -31,23 +31,55 @@ Training Hello world example.
 * npm install
 * npm rm [paquet]
 
-### Execució
+### Example
 ```sh
-$ npm i -g gulp
-$ npm -g in
+$ npm init
+$ npm install express --save
 ```
 
-* Create app.js [HelloWorld Express]
+## Create app.js [HelloWorld Express]
 
+### step1
+```sh
+$ npm init
+$ npm install express --save
+```
+
+### step2
 * Install morgan.
 * Create a api that uses JSON
+* Create a static page
+* Simple main.
+
+
+## Angular Example
+
+
+## Debug on the server
+
+[node-inspector]
+
+* Emample of node inspector
+
+##  Debug on the client
+
+* Example of debugging
+
+## Test the api
+
+[postman]
+[swagger] Documentació i test
+
 
 
 [Dillinger]:http://dillinger.io/
 [Sublime:]:http://www.sublimetext.com/
 [ExRatione]:https://www.exratione.com/2014/01/setting-up-sublime-text-3-for-javascript-development/
-[git]: http://git-scm.com/
+[git]:http://git-scm.com/
 [GitHub]:https://github.com/
 [Setup Git]:https://help.github.com/articles/set-up-git/
 [SourceTree]:http://www.sourcetreeapp.com/
 [HelloWorld Express]:http://expressjs.com/starter/hello-world.html
+[node-inspector]:https://github.com/node-inspector/node-inspector
+[postman]:https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm
+[swagger]:http://swagger.io
