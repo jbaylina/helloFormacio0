@@ -25,7 +25,7 @@ Training Hello world example.
 
 * Mark Down: [Dillinger]
 
-## 5.- Introduction to npm
+## 5. Introduction to npm
 
 Generic explanation
 * npm init
@@ -67,13 +67,13 @@ $ npm install express --save
 * [tutorial ui-router]
 * [bootstrap]
 
-## 11.- Debug on the server
+## 11. Debug on the server
 
 * [node-inspector]
 
-## 12.- Debug on the client
+## 12. Debug on the client
 
-## 13.- Commit to repository
+## 13. Commit to repository
 ```sh
 $ git add --all .
 $ git commit -m"Explicació del commit"
